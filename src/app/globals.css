@@ -24,3 +24,38 @@ body {
   color: var(--foreground);
   font-family: Inter, sans-serif;
 }
+
+.header{
+  margin-left: 400px;
+  height: 60px;
+  text-align: left;
+  padding: 15px;
+  font-size: larger;
+  position: relative; /* это важно для absolute позиционирования */
+}
+
+.grib{
+  display: grid;
+
+  grid-template-rows: 100px;
+  width: 58%;
+  margin-left: 415px;
+
+}
+
+.c_header{
+
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  gap: 900px;        /* опционально: расстояние между левым и правым текстом */
+}
+
+.block_ib_osnova{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_block{
+  margin-left: 100px;
+}

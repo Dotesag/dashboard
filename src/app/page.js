@@ -1,5 +1,14 @@
 import Navbar from "@/components/navbar/navbar";
+import Header from "@/components/navbar/heade";
 
 export default function Home() {
-  return <Navbar />;
+  return(
+    <div className="wrapper">
+
+      <Header/>
+      <Navbar/>
+      
+    </div>
+  )
+  
 }
