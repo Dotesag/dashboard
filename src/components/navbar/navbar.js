@@ -11,7 +11,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="w-70 bg-[#1f1e30] flex flex-col p-5 m-5 rounded-3xl text-[#f7f7f5]">
+    <div className="w-70 bg-[#1f1e30] flex flex-col p-5 rounded-3xl text-[#f7f7f5]">
       <p className="text-2xl text-center pb-7">Eduplex</p>
       <div>
         {buttons.map((button) => (
