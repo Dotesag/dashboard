@@ -10,13 +10,13 @@ export default function Header(){
         <div className="flex-grow mx-4">
           <input
             type="text"
-            className="search-input border-2 border-black rounded-2xl w-72 ml-190"
-            placeholder="🌏Введите текст"
+            className=" search-input border-1 border-gray-600 rounded-2xl w-70 h-10 ml-190 pl-3 text-base"
+            placeholder="🔍︎Введите текст"
           />
         </div>
         <div className="absolute top-2 right-4">
           <img
-            src="https://i.pinimg.com/736x/32/96/51/329651bbe6f3d0155307f884be562753.jpg"
+            src="/group-svgrepo-com.svg"
             alt="avatar"
             className="inline-block object-cover object-center rounded-full w-12 h-12"
           />

@@ -6,7 +6,6 @@ export default function Home() {
     <div className="wrapper">
 
       <Header/>
-      <Navbar/>
       
     </div>
   )
