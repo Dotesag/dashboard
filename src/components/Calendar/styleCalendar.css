@@ -1,0 +1,101 @@
+@import "tailwindcss";
+/* ------------------------------
+Dan1el 2nd block
+------------------------------ */
+
+.CalendarPageMain {
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.CalendarPageMain header {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 16px;
+  background: #ffffff;
+  color: #1f1e30;
+  border: 1px solid #e5e5e0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CalendarPageMain .calendarPageMainHeaderButton {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  border-radius: 14px;
+  font-size: 13px;
+  background-color: #d5d5d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarDaysHeader {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 16px;
+  background: #d5d5d5;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.calendarDays {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendarDays .week {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.calendarDays .isActive {
+  font-size: 14px;
+  color: #999999;
+
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendarDays .notActive {
+  font-size: 14px;
+  color: #d5d5d5;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendarDays .target {
+  font-size: 14px;
+  color: black;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8f274;
+}
