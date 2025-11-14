@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+.courses-container {
+  width: 100%;
+  background-color: #f7f7f5;
+  border-radius: 16px;
+}
+
+.courses-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.courses-header-title {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  justify-content: left;
+  display: flex;
+}
+
+.courses-header-select {
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 16px;
+  background: #ffffff;
+  color: #1f1e30;
+  border: 1px solid #e5e5e0;
+  font: 500 14px/32px "Inter", sans-serif;
+}
+
+.courses-header-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #d8f274;
+  color: #111111;
+  border: none;
+  font: 700 18px/28px "Inter", sans-serif;
+  text-align: center;
+}
+
+.courses-header-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: right;
+  align-items: center;
+}
+
+.course-time-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-time-info p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.course-time-info h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+.course-progress {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.course-progress h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+.course-instructor {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.course-item-main {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.course-item-main h1 {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.course-item {
+  margin: 10px 0;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Inter", sans-serif;
+  height: 75px;
+}
+
+.course-item p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.course-item h1 {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.course-icon-large {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.course-icon-small {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.course-progress-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+}
+
+.course-progress-45 {
+  background: conic-gradient(#7ad000 0 45%, #e9ecef 0);
+}
+
+.course-progress-75 {
+  background: conic-gradient(#7ad000 0 75%, #e9ecef 0);
+}
+

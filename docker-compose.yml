@@ -1,0 +1,15 @@
+services:
+  frontend:
+    image: dashboard:latest
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:${PORT:-3000}:3000"
+    environment:
+      - PORT=3000
+      - NEXT_TELEMETRY_DISABLED=1
+    restart: unless-stopped
+
+
